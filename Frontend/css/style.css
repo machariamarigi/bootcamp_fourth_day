@@ -27,3 +27,39 @@ a {
 a:hover {
     cursor:  pointer;
 }
+
+
+/*** Header Section styles ***/
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header button {
+    background-color: dodgerblue;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 0.4em 1em;
+    font-weight: bold;
+}
+
+header a {
+    color: #555
+}
+
+header ul {
+    float: right;
+    padding: 2em;
+}
+
+header ul li {
+    margin-left: 1em;
+    padding-bottom: 4px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
