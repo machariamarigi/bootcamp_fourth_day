@@ -1,4 +1,9 @@
-class MissingNumberTest(TestCase):
+import unittest
+
+from missing_number import find_missing
+
+
+class MissingNumberTest(unittest.TestCase):
     """docstring for MissingNumberTest"""
 
     def test_empty_list(self):
@@ -20,3 +25,6 @@ class MissingNumberTest(TestCase):
         self.assertListEqual([5, 10, 1],
                              [list1, list2, list3],
                              msg='should return the missing number for lists with similar entries and a missing number')
+
+if __name__ == '__main__':
+    unittest.main()
