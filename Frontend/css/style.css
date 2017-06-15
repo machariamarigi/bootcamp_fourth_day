@@ -65,7 +65,7 @@ header ul li a:hover {
 }
 
 
-/** Contet section styling **/
+/** Contet section styles **/
 
 .content {
     clear: both;
@@ -139,4 +139,42 @@ input:focus {
 
 .search button:active {
     border-color: #4d90fe;
+}
+
+
+/** footer styles **/
+
+footer {
+    font-size: 0.9em;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e3e3e3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a {
+    color: #666
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.links-left {
+    float: left;
+    padding-left: 3em;
+}
+
+.links-left li {
+    margin-right: 2em;
+}
+
+.links-right {
+    float: right;
+    padding-right: 3em;
+}
+
+.links-right li {
+    margin-left: 2em;
 }
